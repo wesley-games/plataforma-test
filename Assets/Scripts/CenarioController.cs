@@ -49,6 +49,8 @@ public class CenarioController : MonoBehaviour
         if (Mathf.Abs(lastPositionX - positionX) > 6)
         {
             positionX = lastPositionX + 6 * (lastPositionX / Mathf.Abs(lastPositionX));
+            positionX = Mathf.Min(positionX, maxX);
+            positionX = Mathf.Max(positionX, minX);
         }
         lastPositionX = positionX;
 
