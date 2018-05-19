@@ -57,18 +57,4 @@ public class CenarioController : MonoBehaviour
         obj.transform.position = new Vector3(positionX, maxY, 0);
         objects.Enqueue(obj);
     }
-
-    // void OnDrawGizmos()
-    // {
-    //     Gizmos.color = Color.yellow;
-    //     Gizmos.DrawLine(new Vector3(4, -6, 0), new Vector3(4, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(3, -6, 0), new Vector3(3, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(2, -6, 0), new Vector3(2, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(1, -6, 0), new Vector3(1, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(0, -6, 0), new Vector3(0, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(-1, -6, 0), new Vector3(-1, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(-2, -6, 0), new Vector3(-2, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(-3, -6, 0), new Vector3(-3, 1, 0));
-    //     Gizmos.DrawLine(new Vector3(-4, -6, 0), new Vector3(-4, 1, 0));
-    // }
 }
